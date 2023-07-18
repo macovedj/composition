@@ -1,0 +1,6 @@
+package component:inc
+
+/// An example world for the component to target.
+world example {
+    export increment: func(input: list<u32>) -> list<u32>
+}                

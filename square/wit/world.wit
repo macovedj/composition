@@ -1,0 +1,8 @@
+package component:square
+
+
+/// An example world for the component to target.
+world example {
+    import inc: func(input: list<u32>) -> list<u32>
+    export raise: func(input: list<u32>) -> list<u32>
+}                
